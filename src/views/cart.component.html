@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart | Checkout</title>
+
+    <!-- IMPORTS -->
+    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.png">
+
+    <link rel="stylesheet" href="/assets/fontawesome/css/all.css">
+
+    <link rel="stylesheet" href="../css/cart.css">
+    <script src="/build/Cart.js" async></script>
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="main-nav nav">
+            <ul>
+                <!-- <li><a href="index.html">HOME</a></li>
+                <li><a href="store.html">STORE</a></li>
+                <li><a href="about.html">ABOUT</a></li> -->
+            </ul>
+        </nav>
+        <!-- PAGE TITLE -->
+        <div class="cart-details">
+            <h3 class="title">
+                <span>Kishop Chetu</span> | Checkout
+            </h3>
+        </div>
+    </header>
+
+    <!-- MAIN CONTAINER -->
+    <section class="container content-section">
+        <!-- ITEM CONTAINER -->
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">Game Controller</span>
+                <img loading="lazy" class="shop-item-image" src="/assets/images/products/controller.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">
+                        KES1299
+                    </span>
+                    <button class="btn btn-primary shop-item-button" type="button">
+                        <i class="fa-solid fa-cart-plus add-to-cart-icon"></i>
+                        <p>
+                            Add to cart
+                        </p>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CART SECTION -->
+    <section class="container cart content-section">
+        <h2 class="section-header">Cart</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">
+                Item
+            </span>
+            <span class="cart-price cart-header cart-column">
+                Price
+            </span>
+            <span class="cart-quantity cart-header cart-column">
+                Quantity
+            </span>
+        </div>
+        <div class="cart-items">
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">
+                Total
+            </strong>
+            <span class="cart-total-price">
+                KES 0
+            </span>
+        </div>
+        <button class="btn btn-primary btn-purchase" type="button">
+            Checkout
+        </button>
+    </section>
+
+</body>
+
+</html>

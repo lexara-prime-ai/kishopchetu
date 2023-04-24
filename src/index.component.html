@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kishop Chetu | Home | Online Retail | Store</title>
+
+    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.png">
+
+    <!-- FONTAWESOME -->
+    <link rel="stylesheet" href="/assets/fontawesome/css/all.css">
+
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!--= ROOT =-->
+    <main id="root">
+        <!--=== APP CONTAINER ===-->
+        <div id="app-root">
+            <!-- HEADER SECTION -->
+            <header class="header-default">
+                <!-- LOGO -->
+                <img src="../assets/images/logo_files/png/Color logo - no background.png" alt="logo" class="logo">
+
+                <!--=== NAVIGATION ===-->
+                <nav class="navigation">
+                    <!--== NAV LINKS ==-->
+                    <ul class="nav-links">
+                        <!--= LINK ITEM =-->
+                        <li class="link-item is-active">
+                            <a href="index.component.html" class="link">
+                                <i class="fas fa-home link-icon"></i>
+                            </a>
+                        </li>
+
+                        <!--= LINK ITEM =-->
+                        <li class="link-item">
+                            <a href="#" class="link">
+                                <i class="fas fa-paper-plane"></i>
+                            </a>
+                        </li>
+
+                        <!--= LINK ITEM =-->
+                        <li class="link-item">
+                            <a href="index.component.html" class="link">
+                                Latest
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <!--==== END | NAVIGATION ====-->
+
+                <!--= ADD PRODUCT BUTTON =-->
+                <a href="#" class="cta">
+
+                    <a href="#">
+                        <i class="fas fa-shopping-cart cart-icon"></i>
+                    </a>
+
+                    <!-- ADD PRODUCT BUTOON | MOBILE -->
+                    <button class="add-product">
+                        <i class="fas fa-add add-icon"></i>
+                        Add a product
+                    </button>
+
+                    <!-- ADD PRODUCT BUTOON | MOBILE -->
+                    <button class="add-product-mobile">
+                        <i class="fas fa-add add-icon"></i>
+                    </button>
+                </a>
+                <!--=== END | ADD PRODUCT BUTTON ===-->
+
+                <!--==============================-->
+                <!--=== PRODUCT FORM CONTAINER ===-->
+                <section class="productFormContainer">
+                    <!--== PRODUCT FORM ==-->
+                    <div class="form" id="form">
+                        <!--= PRODUCT NAME =-->
+                        <div class="input-box">
+                            <span>
+                                Product name
+                            </span>
+                            <input type="text" placeholder="Product name..." id="product-name" required>
+                        </div>
+
+                        <!--= PRODUCT IMAGE =-->
+                        <!--==== FILE UPLOAD ====-->
+                        <!-- <div class="input-box">
+                            <label for="file-upload" class="file-upload">
+                                <i class="fa fa-cloud-upload"></i> Product Image
+                            </label>
+                            <input id="file-upload" type="file" id="product-img" required>
+                        </div> -->
+
+                        <div class="input-box">
+                            <span>
+                                Product image
+                            </span>
+                            <input type="text" placeholder="Image url..." id="product-img" required>
+                        </div>
+
+                        <!--= PRODUCT DESCRIPTION =-->
+                        <div class="input-box">
+                            <span>
+                                Product description
+                            </span>
+                            <input type="text" placeholder="Description..." id="product-description" required>
+                        </div>
+
+                        <!--= PRODUCT PRICE =-->
+                        <div class="input-box">
+                            <span>
+                                Product price
+                            </span>
+                            <input type="text" placeholder="Price..." id="product-price" required>
+                        </div>
+
+                        <button type="submit" class="submit btn">
+                            Add Product
+                        </button>
+                    </div>
+                </section>
+                <!--==========END | PRODUCT FORM CONTAINER==========-->
+            </header>
+
+            <!--===PAGE TITLE INFO ===-->
+            <div class="page-info">
+                <h2 class="info-title">
+                    <span>
+                        Recent
+                    </span>
+                     Products
+                </h2>
+            </div>
+
+            <!--===== PRODUCTS =====-->
+            <div class="products">
+              
+                <!-- END | PRODUCT CONTAINER -->
+            </div>
+        </div>
+    </main>
+
+    <!-- SCRIPTS -->
+    <script src="../assets/fontawesome/js/all.js"></script>
+    <script src="../build/App.js"></script>
+    <script src="./js/animate.js"></script>
+</body>
+
+</html>
