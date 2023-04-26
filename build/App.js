@@ -43,10 +43,12 @@ class Product {
                     Delete
                 </button>
 
-                <button class="add-to-cart-btn product-btn onclick="new Product().addToCart(${this.product.id})">
-                    <i class="fas fa-add icon"></i>
-                    Add to cart
-                </button>
+                <a style="text-decoration: none;" href="http://localhost:5500/src/views/cart.html">
+                    <button class="add-to-cart-btn product-btn">
+                        <i class="fas fa-add icon"></i>
+                        Add to cart
+                    </button>
+                </a>
             </div>
         </div>
     </div>
@@ -127,20 +129,6 @@ class Product {
             }
         })
     }
-
-    // METHOD FOR ADDING PRODUCT TO CART
-    // static async addToCart() {
-    //     const newProduct = Product.readProductFormInput();
-    //     log(newProduct);
-    //     await fetch('http://localhost:3000/products', {
-    //         method: 'POST',
-    //         body: JSON.stringify(newProduct),
-    //         headers: {
-    //             'Content-Type': 'application/json'
-    //         }
-    //     })
-    // }
-
 }
 
 // ADD | UPDATE PRODUCT WHEN ONCLICK EVENT FIRES
@@ -150,9 +138,6 @@ formBtn.addEventListener('click', () => {
     // CHECK IF USER IS UPDATING OR ADDING A PRODUCT
     Product.addProduct();    
 });
-
-// ADD PRODUCT TO CART
-// const addToCartBtn = document.querySelector('')
 
 // DISPLAY ALL PRODUCTS
 class DisplayProducts {
