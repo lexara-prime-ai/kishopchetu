@@ -43,7 +43,7 @@ class Product {
                     Delete
                 </button>
 
-                <a style="text-decoration: none;" href="http://localhost:5500/src/views/cart.html">
+                <a style="text-decoration: none;" href="https://kishopchetu.onrender.com/src/views/cart.html">
                     <button class="add-to-cart-btn product-btn">
                         <i class="fas fa-add icon"></i>
                         Add to cart
