@@ -18,7 +18,7 @@ addProductButton.addEventListener('click', () => {
     addProductButton.classList.toggle('form-visible');
 });
 
-// ADD STYLES TO headerBAR ON SCROLL
+// ADD STYLES TO HEADER ON SCROLL
 const header = document.querySelector('header');
 window.onscroll = function () { 
     if (document.body.scrollTop >= 100 || document.documentElement.scrollTop >= 100 ) {
